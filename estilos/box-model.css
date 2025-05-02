@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+
+}
+
+.eater-regular {
+    font-family: "Eater", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.eater h1 {
+    font-family: "Eater", serif;
+    text-align: center;
+}
+
+
+.tarjeta-banda {
+    background-color: darkmagenta;
+    border: 3px solid black;
+    /* border-style: dashedsolid; */
+    /* padding: 20px 9px 52px 7px; */
+    padding: 30px 70px;
+    margin: 60px auto;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+}
