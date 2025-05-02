@@ -8,12 +8,23 @@
     <!-- Se utiliza para que la página sea responsive (se adapte a diferentes tamaños de pantalla) -->
     <title>Mi pagina web</title> <!-- Título que aparece en la pestaña del navegador -->
     <link rel="stylesheet" href="./estilos/styles.css">
+    <!--<style>
+        * {
+            background-color: rgb(168, 189, 94);
+        }
+
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+    </style>
+    -->
 </head>
 
 <body>
     <h1>Mis comidas favoritas╰(*°▽°*)╯</h1>
     <h2>Pozole</h2>
-    <p>
+    <p style="color:rgb(221, 224, 37)">
         Este antojito me gusta como lo hacen en mi familia.
     </p>
     <h3>Lasaña</h3>
@@ -21,8 +32,8 @@
     <h5>Barbacoa</h5>
     <h6>Alitas</h6>
 
-    <img src="https://mimomigato.com/wp-content/uploads/2024/11/6-1024x573.jpg" alt="">
-    
+    <img id="gato-ninja" src="https://mimomigato.com/wp-content/uploads/2024/11/6-1024x573.jpg" alt="">
+
     <hr>
     <!--Elementos en linea y en bloque-->
     <span>Este es un contenedor génerico <strong>en línea</strong> </span>
@@ -30,7 +41,7 @@
     <div>Este es un contenedor generico <em>en bloque</em></div>
     <div>Otro contenedor generico en bloque</div>
 
-    <p>
+    <p id="parrafo-inicial">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, inventore iusto. Ipsa deleniti repellat velit
         veritatis natus cumque dolore explicabo porro aut. Eaque totam repudiandae recusandae fuga rem velit ipsa!
     </p>
@@ -64,7 +75,7 @@
 
     <span><strong>Comida de peliculas: Harry Potter</strong></span>
     <dl>
-        <dt>Cerveza de mantequilla</dt>
+        <dt class="terminos-a-definir">Cerveza de mantequilla</dt>
         <dd>La cerveza de mantequilla es una bebida popular en el mundo de harry ppotter descrita por ser poco
             empalagoso </dd> <br>
         <dt>Rana de chocolate </dt>
